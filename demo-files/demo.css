@@ -46,7 +46,6 @@ input:focus {
 }
 .glyph {
     font-size: 16px;
-    width: 6em;
     margin-bottom: 1em;
     margin-right: 40px;
     float: left;
@@ -157,5 +156,19 @@ pre {
 li {
     margin: 10px 0;
     font-family: monospace;
+}
+.nav .mhmm {
+    line-height: 1em;
+}
+.nav a {
+    color: #fff;
+    font-size: 22px;
+}
+.nav .icon-github {
+    float: right;
+}
+.nav a:link, .nav a:visited, .nav a:hover {
+    text-decoration: none;
+    box-shadow: none;
 }
 
