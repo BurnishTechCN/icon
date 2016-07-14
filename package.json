@@ -1,6 +1,6 @@
 {
   "name": "burnish-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "font icon 库",
   "main": "index.js",
   "scripts": {
