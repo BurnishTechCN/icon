@@ -80,6 +80,7 @@ p {
 .mvm {
     margin-top: .75em;
     margin-bottom: .75em;
+    color: #000;
 }
 .mtn {
     margin-top: 0;
@@ -171,4 +172,9 @@ li {
     text-decoration: none;
     box-shadow: none;
 }
-
+.ionicons-wrap li {
+  list-style: none;
+  float: left;
+  font-size: 32px;
+  cursor: pointer;
+}

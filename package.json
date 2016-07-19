@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/HelloYie/icon/issues"
   },
-  "homepage": "https://github.com/HelloYie/icon#readme"
+  "homepage": "https://github.com/HelloYie/icon#readme",
+  "dependencies": {
+  }
 }
