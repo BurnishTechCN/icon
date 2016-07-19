@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'burnish';
-    src:    url('fonts/burnish.eot?tjmy43');
-    src:    url('fonts/burnish.eot?tjmy43#iefix') format('embedded-opentype'),
-        url('fonts/burnish.ttf?tjmy43') format('truetype'),
-        url('fonts/burnish.woff?tjmy43') format('woff'),
-        url('fonts/burnish.svg?tjmy43#burnish') format('svg');
+    src:    url('fonts/burnish.eot?lun8f8');
+    src:    url('fonts/burnish.eot?lun8f8#iefix') format('embedded-opentype'),
+        url('fonts/burnish.ttf?lun8f8') format('truetype'),
+        url('fonts/burnish.woff?lun8f8') format('woff'),
+        url('fonts/burnish.svg?lun8f8#burnish') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,7 +24,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-github:before {
+.icon-8:before {
     content: "\eab0";
 }
 .icon-1:before {
@@ -49,8 +49,3 @@
     content: "\e906";
 }
 
-@media only screen and (max-width: 480px) {
-  .fs1 {
-    font-size: 16px;
-  }
-}
