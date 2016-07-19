@@ -6,5 +6,5 @@ window.data = [
 	'icon-5',
 	'icon-6',
 	'icon-7',
-	'icon-github',
+	'icon-8',
 ];
