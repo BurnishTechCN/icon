@@ -45,7 +45,7 @@
   <div class="clearfix mbl">
     <h1 class="mvm mtn fgc1">
       <span class="ion-ios-pricetags"></span>
-      使用
+      使用（WEB端）
     </h1>
     <h2 style="font-size: 18px;">webpack方式: </h2>
     <ul>
@@ -61,6 +61,17 @@
       <li>引入style.css、ionicons.css和font文件夹</li>
       <li>burnish图标：&lt;i class="icon-1" /&gt;</li>
       <li>ionicons图标：&lt;i class="ion-ionic" /&gt;</li>
+    </ul>
+  </div>
+  <div class="clearfix mbl">
+    <h1 class="mvm mtn fgc1">
+      <span class="ion-ios-pricetags"></span>
+      使用（APP 端）
+    </h1>
+    <ul>
+      <li><a href="https://github.com/BurnishTechCN/icon/archive/master.zip">下载新版的icon包</a></li>
+      <li>解压获取font文件夹中的字体，如：burnish.ttf，列表可查看图标字符编码如：\e901。<li>
+      <li>可参考阿里巴巴字体图标加载：<a href="http://iconfont.cn/help/iconuse.html">http://iconfont.cn/help/iconuse.html</a></li>
     </ul>
   </div>
   <div class="clearfix mbl">
@@ -88,10 +99,13 @@
   <script type="text/tpl" id="js-icon-template">
     <%_ .each(data, function(item) { %>
       <div class="glyph fs1 hvr-underline-from-center">
-      <div class="clearfix bshadow0 pbs">
-      <span class=<%-item%>></span>
-      <span class="mls"><%-item%></span>
-      </div>
+        <div class="clearfix bshadow0">
+          <span class=<%-item.class%>></span>
+          <div class="i-summary">
+            <span class="mls"><%-item.class%></span>
+            <span class="mls"><%-item.t%></span>
+          </div>
+        </div>
       </div>
      <% }) %>
   </script>
