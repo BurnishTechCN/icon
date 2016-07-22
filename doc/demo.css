@@ -48,7 +48,6 @@ input:focus {
     font-size: 16px;
     margin-bottom: 1em;
     margin-right: 40px;
-    float: left;
     overflow: hidden;
 }
 .liga {
@@ -193,4 +192,5 @@ li {
 .i-summary span:first-child {
     padding-right: 10px;
     border-right: 1px solid #000;
+    min-width: 55px;
 }
