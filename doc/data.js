@@ -18,4 +18,10 @@ window.data = [
 	{ class: 'icon-17', t: '\\e910' },
 	{ class: 'icon-18', t: '\\e911' },
 	{ class: 'icon-19', t: '\\e912' },
+	{ class: 'icon-20', t: '\\e913' },
+	{ class: 'icon-21', t: '\\e914' },
+	{ class: 'icon-22', t: '\\e915' },
+	{ class: 'icon-23', t: '\\e916' },
+	{ class: 'icon-24', t: '\\e917' },
+	{ class: 'icon-25', t: '\\e918' },
 ];

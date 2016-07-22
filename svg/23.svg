@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="形状_11_副本_51_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg version="1.1" id="形状_11_副本_44_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
-<g id="形状_11_副本_51">
+<g id="形状_11_副本_8">
 	<g>
-		<path fill="#6A6A6A" d="M0.369,32l10.088-0.346L0.71,21.796L0.369,32z M23.947,0L4.371,19.803l7.682,7.771L31.631,7.771L23.947,0z
-			"/>
+		<path fill="#6A6A6A" d="M15.998,0C7.163,0,0,7.164,0,16c0,8.836,7.163,16,15.998,16C24.835,32,32,24.836,32,16
+			C32,7.164,24.835,0,15.998,0z M15.937,22.748v-4.723H6.876v-4.36h9.061v-4.72l9.686,6.901L15.937,22.748z"/>
 	</g>
 </g>
 </svg>
