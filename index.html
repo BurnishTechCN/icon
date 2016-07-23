@@ -43,7 +43,7 @@
     </h1>
     <ul>
       <li>请查看<a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a></li>
-      <li>安装：npm install font-awesome或自行下载源码安装。</li>
+      <li>安装：npm install font-awesome 或自行下载源码安装。</li>
     </ul>
   </div>
   <div class="mbl">
@@ -52,24 +52,21 @@
       使用（WEB端）
     </h1>
     <ul>
-      <li><a href="https://github.com/BurnishTechCN/icon/archive/master.zip">下载新版的icon包</a>，或者通过npm install burnish-icon安装。</li>
-      <li>引入style.css、ionicons.css和s.svg文件</li>
+      <li>
+        <a href="https://github.com/BurnishTechCN/icon/archive/master.zip">下载新版的 icon 包</a>，或者通过 npm install burnish-icon 安装。
+        得到里面的 s.svg 和 style.css
+      </li>
+      <li>引入 style.css 和 s.svg 文件</li>
       <li>加入代码： <pre>&lt;svg class="icon icon-1"&gt;&lt;use xlink:href="s.svg#icon-1"&gt;&lt;/use&gt;&lt;/svg&gt;</pre>
-      <li>ionicons图标：&lt;i class="ion-ionic" /&gt;</li>
       <li>
         自定义样式：
         <pre>
-  .icon-1 {
-    fill: #656565;
-    width: 16px;
-    height: 16px;
-  }</pre>
+.icon-1 {
+  fill: #656565;
+  width: 16px;
+  height: 16px;
+}</pre>
     </li>
-    </ul>
-    <h2 style="font-size: 18px;">普通方式:</h2>
-    <ul>
-      <li>加入代码： &lt;svg class="icon icon-1"&gt;&lt;use xlink:href="s.svg#icon-1"&gt;&lt;/use&gt;&lt;/svg&gt;
-      <li>ionicons图标：&lt;i class="ion-ionic" /&gt;</li>
     </ul>
   </div>
   <div class="mbl">
@@ -79,14 +76,15 @@
     </h1>
     <ul>
       <li>找设计师做好svg。</li>
-      <li>Fork <a href="https://github.com/BurnishTechCN/icon">icon代码仓库</a>到本地。</li>
+      <li>Fork <a href="https://github.com/BurnishTechCN/icon"> icon 代码仓库</a>到本地。</li>
       <li>在svg目录导入新增的svg文件。</li>
-      <li>到<a href="https://icomoon.io/app/#/select">IcoMoon</a>，点击【import icons按钮】导入所有的svg文件（先删掉所有已有的图标）。</li>
-      <li>确保导入的图标都处理点亮状态后，点击【generate font】按钮，导出字体图标压缩包。</li>
-      <li>替换项目中的font、style.css。</li>
-      <li>修改doc/data.js配置，加入新增的icon class。</li>
-      <li>执行python -m SimpleHTTPServer 9999，访问http:localhost:9999看效果。</li>
-      <li>测试无误后，push代码，提交pull request。</li>
+      <li>到<a href="https://icomoon.io/app/#/select">IcoMoon</a>，先删掉已经存在的 icon。然后点击【import icons按钮】导入所有的 svg 文件。</li>
+      <li>确保导入的图标都处理点亮状态后，点击【Generate SVG】按钮，点击【download】导出压缩包。</li>
+      <li>替换项目中的 s.svg </li>
+      <li>打开 s.svg ,去掉里面的 fill="#xxx" 属性。</li>
+      <li>修改 doc/data.js 配置，加入新增的 icon class。</li>
+      <li>执行 python -m SimpleHTTPServer 9999，访问 http:localhost:9999 看效果。</li>
+      <li>测试无误后，push 代码，提交 pull request。</li>
     </ul>
   </div>
   <div class="bgc1 clearfix">
