@@ -53,4 +53,11 @@ window.data = [
 	{ class: 'icon-52'},
 	{ class: 'icon-53'},
 	{ class: 'icon-54'},
+	{ class: 'icon-55'},
+	{ class: 'icon-56'},
+	{ class: 'icon-57'},
+	{ class: 'icon-58'},
+	{ class: 'icon-59'},
+	{ class: 'icon-60'},
+	{ class: 'icon-61'},
 ];
